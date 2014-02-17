@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>bab@anabnag.pbz</string>
+	<key>contactName</key>
+	<string>Adam Strzelecki</string>
+	<key>description</key>
+	<string>nanoANT's TextMate 2 themes</string>
+	<key>name</key>
+	<string>nanoANT</string>
+	<key>uuid</key>
+	<string>985B4B4A-843F-43B7-A28F-4C8C0B0DDDDF</string>
+</dict>
+</plist>
