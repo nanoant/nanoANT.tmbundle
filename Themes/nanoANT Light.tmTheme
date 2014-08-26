@@ -111,6 +111,17 @@
 		</dict>
 		<dict>
 			<key>scope</key>
+			<string>constant.other.symbol</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
 			<string>variable.language, variable.other</string>
 			<key>settings</key>
 			<dict>
