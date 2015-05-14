@@ -128,7 +128,7 @@
 				<key>fontStyle</key>
 				<string>plain</string>
 				<key>foreground</key>
-				<string>#048</string>
+				<string>#8000FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,18 +176,40 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#0C450D</string>
+				<string>#1A921C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>entity.name.function, support.function.any-method</string>
+			<string>keyword.control.export</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#0000A2</string>
+				<string>#FF00FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#0000BA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>support.function.any-method</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>plain</string>
+				<key>foreground</key>
+				<string>#0000BA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -267,7 +289,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#06960E</string>
+				<string>#800000</string>
 			</dict>
 		</dict>
 		<dict>
