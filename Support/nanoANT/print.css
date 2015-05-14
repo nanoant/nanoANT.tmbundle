@@ -1,0 +1,82 @@
+body.nanoANT {
+  background: white;
+  color: black;
+  height: auto;
+  margin: auto;
+  overflow: auto;
+  padding: auto;
+}
+
+.nanoANT #tm_webpreview_header,
+.nanoANT #tm_webpreview_header .headline,
+.nanoANT #tm_webpreview_header .type,
+.nanoANT #tm_webpreview_content,
+.nanoANT #tm_webpreview_footer {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  background: transparent none;
+  border: none;
+  color: black;
+  display: block;
+  float: none;
+  height: auto;
+  margin: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  padding: 0;
+  position: static;
+  white-space: normal;
+}
+.nanoANT #theme_switcher {
+  display: none;
+}
+.nanoANT #tm_webpreview_footer {
+  margin: 1em 0 0;
+}
+.nanoANT #tm_webpreview_header .headline, .nanoANT h1 {
+  font-size: 2em;
+}
+.nanoANT #tm_webpreview_header .type, .nanoANT h2 {
+  font-size: 1.5em;
+}
+.nanoANT h3 {
+  font-size: 1.17em;
+}
+.nanoANT h4 {
+  font-size: 1em;
+}
+.nanoANT h5 {
+  font-size: 0.83em;
+}
+.nanoANT h6 {
+  font-size: 0.67em;
+}
+.nanoANT a, .nanoANT a:hover, .nanoANT a:visited {
+  color: #1525ab;
+  text-decoration: underline;
+}
+.nanoANT pre {
+  background: none;
+  border-radius: 0;
+  border: none;
+  color: black;
+  padding: 0;
+  position: static;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+.nanoANT hr {
+  background: #999;
+  border: 1px solid #999;
+  height: auto;
+  margin: auto;
+  padding: 0;
+}
+.nanoANT h1, .nanoANT h2, .nanoANT h3, .nanoANT h4, .nanoANT h5, .nanoANT h6, .nanoANT p, .nanoANT pre, .nanoANT blockquote {
+  margin-bottom: .6em;
+  margin-top: .6em;
+}
