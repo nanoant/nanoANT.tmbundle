@@ -24,28 +24,12 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-				<!--
-				<key>background</key>
-				<string>#FFF</string>
-				<key>caret</key>
-				<string>#000</string>
-				<key>foreground</key>
-				<string>#000</string>
-				-->
 				<key>invisibles</key>
-				<string>#0001</string>
+				<string>#0002</string>
 				<key>guide</key>
-				<string>#0003</string>
-				<key>activeGuide</key>
-				<string>#000F</string>
-				<key>stackGuide</key>
-				<string>#0003</string>
+				<string>#0004</string>
 				<key>selection</key>
 				<string>#4D97FF54</string>
-				<!--
-				<key>gutter</key>
-				<string>#EEEEEE</string>
-				-->
 				<key>gutterForeground</key>
 				<string>#00000030</string>
 				<key>lineHighlight</key>
@@ -53,8 +37,7 @@
 				<key>phantomCss</key>
 				<string><![CDATA[
 html {
-    color: #600;
-    background-color: #fcc;
+    background-color: white;
 }
 ]]></string>
 				<key>popupCss</key>
@@ -159,17 +142,6 @@ html {
 				<string>plain</string>
 				<key>foreground</key>
 				<string>#8000FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>variable.function.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>plain</string>
-				<key>foreground</key>
-				<string>#0000BA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -362,17 +334,6 @@ html {
 			<dict>
 				<key>foreground</key>
 				<string>#687687</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>keyword.operator.arithmetic.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#AA22FF</string>
 			</dict>
 		</dict>
 		<dict>
