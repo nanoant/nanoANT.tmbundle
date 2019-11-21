@@ -1,0 +1,296 @@
+{
+    "name": "nanoANT Light",
+    "author": "Adam Strzelecki",
+    "variables":
+    {
+        "black_norm":  "#000000",
+        "black_1":     "#000033",
+        "pink_norm":   "#ff00ff",
+        "pink_dark":   "#990099",
+        "purple_norm": "#8000ff",
+        "purple_dark": "#400088",
+        "green_norm":  "#00ff00",
+        "green_1":     "#1a921c",
+        "green_2":     "#008040",
+        "green_3":     "#036609",
+        "red_norm":    "#ff0000",
+        "red_1":       "#c5060b",
+        "red_2":       "#990000",
+        "red_3":       "#990033",
+        "red_4":       "#800000",
+        "blue_norm":   "#0000ff",
+        "blue_1":      "#0c07ff",
+        "blue_2":      "#1c02ff",
+        "blue_3":      "#0000bb",
+        "blue_4":      "#004488",
+        "blue_5":      "#21439c",
+        "blue_6":      "#4d97ff",
+        "blue_7":      "#6d79de",
+        "blue_8":      "#3c4c72",
+        "grey_light":  "#aaaaaa",
+        "grey_norm":   "#888888",
+        "grey_3":      "#666655",
+        "grey_4":      "#4b4b4b",
+        "grey_5":      "#687687",
+        "grey_6":      "#70727e",
+        "white_norm":  "#ffffff",
+        "white_grey":  "#eeeeee",
+        "white_red":   "#ffdddd",
+        "white_green": "#ddffdd",
+    },
+    "globals":
+    {
+        "invisibles": "color(var(black_norm) alpha(0.13))",
+        "line_highlight": "var(white_grey)",
+        "selection": "color(var(blue_6) alpha(0.33))",
+        "gutter_foreground": "color(var(black_norm) alpha(0.19))",
+        "guide": "color(var(black_norm) alpha(0.27))",
+        "popup_css": "\nhtml {\n color: black;\n background-color: #f2f2f2;\n}\n",
+        "phantom_css": "\nhtml {\n background-color: white;\n}\n"
+    },
+    "rules":
+    [
+        {
+            "scope": "comment",
+            "foreground": "var(grey_norm)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "comment meta",
+            "font_style": "plain"
+        },
+        {
+            "scope": "keyword, storage",
+            "foreground": "var(black_norm)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "keyword.other.documentation",
+            "foreground": "var(grey_4)"
+        },
+        {
+            "scope": "constant.numeric",
+            "foreground": "var(red_norm)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "variable.registers",
+            "foreground": "var(red_1)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "constant.language",
+            "foreground": "var(blue_4)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "constant.other.symbol",
+            "foreground": "var(red_2)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "variable.language, variable.other",
+            "foreground": "var(purple_norm)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "string & -string.unquoted.yaml",
+            "foreground": "var(green_3)",
+            "background": "color(var(green_2) alpha(0.031))",
+            "font_style": "plain"
+        },
+        {
+            "scope": "constant.character.escape, string source",
+            "foreground": "var(green_1)",
+            "background": "color(var(green_norm) alpha(0.051))",
+            "font_style": "plain"
+        },
+        {
+            "scope": "meta.preprocessor",
+            "foreground": "var(green_1)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "keyword.control.import",
+            "foreground": "var(green_1)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "keyword.control.export",
+            "foreground": "var(pink_norm)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "entity.name.function",
+            "foreground": "var(blue_3)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "support.function.any-method",
+            "foreground": "var(blue_3)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "entity.name.type",
+            "font_style": "underline"
+        },
+        {
+            "scope": "entity.other.inherited-class",
+            "font_style": "italic"
+        },
+        {
+            "scope": "variable.parameter",
+            "font_style": "italic"
+        },
+        {
+            "scope": "storage.type.method",
+            "foreground": "var(grey_6)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "meta.section entity.name.section, declaration.section entity.name.section",
+            "font_style": "italic"
+        },
+        {
+            "scope": "support.function",
+            "foreground": "var(blue_8)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "support.class, entity.name.class",
+            "foreground": "var(blue_7)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "support.type",
+            "foreground": "var(pink_dark)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "support.constant",
+            "foreground": "var(red_4)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "support.variable",
+            "foreground": "var(blue_5)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "keyword.operator.js",
+            "foreground": "var(grey_5)"
+        },
+        {
+            "scope": "markup.raw & -markup.raw.inline, source.embedded, meta.embedded, meta.function.environment.latex.tikz",
+            "background": "color(var(black_1) alpha(0.067))"
+        },
+        {
+            "scope": "markup.raw.inline",
+            "foreground": "var(blue_3)",
+            "background": "color(var(blue_norm) alpha(0.067))"
+        },
+        {
+            "scope": "meta.tag.preprocessor.xml",
+            "foreground": "var(grey_3)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string",
+            "foreground": "var(grey_norm)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "string.quoted.docinfo.doctype.DTD",
+            "font_style": "italic"
+        },
+        {
+            "scope": "meta.tag, declaration.tag",
+            "foreground": "var(blue_2)",
+            "font_style": "plain"
+        },
+        {
+            "scope": "entity.name.tag",
+            "font_style": "bold"
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "font_style": "italic"
+        },
+        {
+            "scope": "constant.other.reference",
+            "foreground": "var(red_2)",
+            "background": "color(var(red_norm) alpha(0.067))"
+        },
+        {
+            "scope": "markup.quote",
+            "foreground": "var(grey_light)",
+            "background": "var(white_grey)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.italic",
+            "foreground": "var(red_3)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.list",
+            "foreground": "var(pink_dark)"
+        },
+        {
+            "scope": "markup.list.numbered",
+            "foreground": "var(purple_dark)"
+        },
+        {
+            "scope": "markup.list punctuation.definition",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.heading.1, markup.heading.2"
+        },
+        {
+            "scope": "markup.heading",
+            "foreground": "var(blue_1)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.heading.3, markup.heading.4, markup.heading.5",
+            "foreground": "var(black_norm)"
+        },
+        {
+            "name": "Markup: Heading Small",
+            "scope": "markup.heading.6, markup.heading.7, markup.heading.8, markup.heading.9",
+            "foreground": "var(black_norm)"
+        },
+        {
+            "scope": "markup.frontmatter"
+        },
+        {
+            "name": "Diff: Deleted",
+            "scope": "markup.deleted.diff, meta.diff.header.from-file",
+            "background": "var(white_red)"
+        },
+        {
+            "name": "Diff: Inserted",
+            "scope": "markup.inserted.diff, meta.diff.header.to-file",
+            "background": "var(white_green)"
+        },
+        {
+            "name": "Diff: Heading",
+            "scope": "meta.diff.range.unified",
+            "background": "var(white_grey)"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "var(white_norm)",
+            "background": "var(red_2)"
+        },
+        {
+            "scope": "invalid.deprecated.trailing-whitespace",
+            "background": "var(white_red)"
+        },
+        {
+            "scope": "invalid.illegal.whitespace.trailing, invalid.illegal.whitespace.mixed",
+            "background": "var(white_red)"
+        }
+    ]
+}
